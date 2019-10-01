@@ -1,0 +1,24 @@
+{
+  "name": "prettygoodtherapy",
+  "version": "1.0.0",
+  "description": "Pretty good therapy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sranso/prettygoodtherapy.git"
+  },
+  "keywords": [
+    "therapy",
+    "comedy",
+    "good"
+  ],
+  "author": "Sarah Ransohoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sranso/prettygoodtherapy/issues"
+  },
+  "homepage": "https://github.com/sranso/prettygoodtherapy#readme"
+}
