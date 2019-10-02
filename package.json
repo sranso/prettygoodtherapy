@@ -4,7 +4,9 @@
   "description": "Pretty good therapy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/sranso/prettygoodtherapy/issues"
   },
-  "homepage": "https://github.com/sranso/prettygoodtherapy#readme"
+  "homepage": "https://github.com/sranso/prettygoodtherapy#readme",
+  "dependencies": {
+    "next": "^9.0.7",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
 }
