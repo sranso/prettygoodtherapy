@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import nlp from 'compromise';
 import Layout from '../components/Layout';
 
 const handleSubmit = (e, value) => {
   e.preventDefault();
-  console.log('submitted', value)
+  const question = nlp(value);
+  console.log('q', question);
 };
 
 const Index = () => {
