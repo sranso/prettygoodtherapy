@@ -1,9 +1,31 @@
+import { useState } from 'react';
 import Layout from '../components/Layout';
 
-const Index = () => (
-  <Layout>
-    <p>Coming Soon</p>
-  </Layout>
-);
+const handleSubmit = (e, value) => {
+  e.preventDefault();
+  console.log('submitted', value)
+};
+
+const Index = () => {
+  const [value, handleValueChange] = useState('');
+
+  return (
+    <Layout>
+      <p>Hello, it's good to see you. What can I help you with today?</p>
+      <form onSubmit={(e) => handleSubmit(e, value)}>
+        <label htmlFor="question"></label>
+        <textarea
+          type="text"
+          name="question"
+          id="question"
+          value={value}
+          onChange={(e) => handleValueChange(e.target.value)}
+          required>
+        </textarea>
+       <input type="submit" value="Let's see..."/>
+      </form>
+    </Layout>
+  );
+};
 
 export default Index;
