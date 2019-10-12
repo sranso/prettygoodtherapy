@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,15 @@
     "next": "^9.0.7",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^24.9.0"
   }
 }
