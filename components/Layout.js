@@ -10,6 +10,7 @@ const Layout = props => (
 		<Head>
 			<title>Pretty Good Therapy</title>
 	        <meta property="og:title" content="Pretty Good Therapy" key="title" />
+	        <meta name="description" content="Pretty good therapy, availalbe to everyone. If you need real therapy, please seek it. Built by Sarah Ransohoff." />
 			<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png"/>
 			<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/>
 			<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/>
