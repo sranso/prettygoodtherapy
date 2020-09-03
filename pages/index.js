@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Layout from '../components/Layout'
 import Form from '../components/Form'
 import Answer from '../components/Answer'
-import handleQuestion from "../lib/handleQuestion";
+import handleQuestion from "../lib/handleQuestion"
 
 
 const Index = () => {
