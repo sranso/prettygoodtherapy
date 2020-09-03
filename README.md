@@ -1,6 +1,10 @@
 # prettygoodtherapy
 
 ## todos
+- fix is / when question asking
+- disable btn if no q
 - link to actual therapy
-    - if take it more than 4 times, be like hey maybe u actually want to talk to someone
-- use http://compromise.cool/
+- favicon
+- add seo stuff
+- pass first feature test
+- go top to bottom passing unit test
