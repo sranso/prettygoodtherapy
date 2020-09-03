@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/sranso/prettygoodtherapy#readme",
   "dependencies": {
+    "compromise": "^13.3.2",
     "next": "^9.5.3",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
