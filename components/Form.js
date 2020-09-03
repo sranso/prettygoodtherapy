@@ -10,7 +10,7 @@ const Form = ({ input, handleInputChange, onSubmit }) => (
         name="question"
         id="question"
         value={input}
-        onChange={(e) => handleInputChange(e.target.input)}
+        onChange={(e) => handleInputChange(e.target.value)}
         required>
       </textarea>
       <input type="submit" value="Let's see..."/>
