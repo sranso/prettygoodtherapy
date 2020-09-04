@@ -1,9 +1,8 @@
-import layoutStyles from './Layout.module.css'
 import formStyles from './Form.module.css'
 
 const Form = ({ input, handleInputChange, onSubmit }) => (
   <>
-    <h1 className={layoutStyles.headers}>Integrative Therapy</h1>
+    <h1>Integrative Therapy</h1>
     <p>
       Hello, it's good to see you. What question is on your mind?
     </p>

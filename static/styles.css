@@ -1,4 +1,4 @@
-.body {
+body {
 	background-color: #00bfff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
@@ -10,11 +10,7 @@
   	background-size: 20%;
 }
 
-.colorDiv {
-
-}
-
-.headers {
+h1 {
 	font-family: 'Bilbo', cursive;
 	font-size: 4rem;
 	letter-spacing: 0.5rem;

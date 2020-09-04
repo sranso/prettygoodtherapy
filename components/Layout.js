@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from './Layout.module.css'
 import Header from './Header'
 
 const Layout = props => (
-	<body className={styles.body}>
+	<>
 		<Head>
 			<title>Pretty Good Therapy</title>
 	        <meta property="og:title" content="Pretty Good Therapy" key="title" />
@@ -18,7 +17,7 @@ const Layout = props => (
 
 	    <Header />
 	    {props.children}
-    </body>
+	</>
 );
 
 export default Layout;
