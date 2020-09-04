@@ -11,8 +11,9 @@ this project uses
 - https://www.netlify.com/
 
 ## todos
-- fix is / when question asking
+- fix is question asking
 - add testimonials
+- shuffle answers?
 - disable btn if no q
 - pass first feature test
 - go top to bottom passing unit test
