@@ -1,0 +1,22 @@
+.body {
+	background-color: #00bfff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	letter-spacing: .7px;
+	text-align: center;
+	color: darkslategray;
+	background-image: url(/static/lotus-leaf.png);
+  	background-repeat: repeat;
+  	background-size: 20%;
+}
+
+.colorDiv {
+
+}
+
+.headers {
+	font-family: 'Bilbo', cursive;
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+	color: white;
+}

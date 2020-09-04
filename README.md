@@ -11,9 +11,8 @@ this project uses
 - https://www.netlify.com/
 
 ## todos
-- style!!
 - fix is / when question asking
-- add fake endorsements
+- add testimonials
 - disable btn if no q
 - pass first feature test
 - go top to bottom passing unit test

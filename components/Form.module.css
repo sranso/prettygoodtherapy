@@ -1,0 +1,14 @@
+.textarea {
+  width: 30rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.submit {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFE4E1;
+  padding: 1rem;
+  font-size: 18px;
+  cursor: pointer;
+  color: inherit;
+}
