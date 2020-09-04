@@ -29,11 +29,15 @@
   "homepage": "https://github.com/sranso/prettygoodtherapy#readme",
   "dependencies": {
     "compromise": "^13.3.2",
+    "compromise-sentences": "0.0.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.4",
     "jest": "^26.4.2",
     "next": "^9.5.3",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-classes": "^7.10.4"
   }
 }
