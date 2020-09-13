@@ -1,19 +1,18 @@
 .wrapper {
   background-color: lavender;
-  padding: 1rem 1rem 2rem;
-  border-radius: 10px;
+  padding: 1em 1em 2em;
   max-width: 650px;
-  margin: 6rem auto;
+  margin: 2em auto 0
 }
 
 .textarea {
-  width: 30rem;
-  height: 8rem;
-  margin-bottom: 1rem;
+  max-width: 30em;
+  min-width: 22em;
+  height: 8em;
+  margin-bottom: 1em;
   border: none;
   overflow: auto;
   outline: none;
-
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -23,7 +22,7 @@
   display: block;
   margin: 0 auto;
   background-color: indigo;
-  padding: 1rem;
+  padding: 1em;
   font-size: 18px;
   cursor: pointer;
   color: ghostwhite;
@@ -32,5 +31,17 @@
 }
 
 .answers {
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
+}
+
+@media (min-width: 600px) and (orientation:landscape) {
+  .wrapper {
+    border-radius: 10px;
+    margin: 4em auto;
+  }
+
+
+  .textarea {
+    min-width: 28em;
+  }
 }
