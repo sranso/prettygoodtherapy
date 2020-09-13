@@ -1,8 +1,9 @@
 import Layout from '../components/Layout';
+import Info from '../components/Info'
 
 const About = () => (
   <Layout>
-    <p>A project by <a href="https://sarahransohoff.com" target="_blank">Sarah Ransohoff.</a></p>
+  	<Info />
   </Layout>
 );
 
