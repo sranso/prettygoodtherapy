@@ -8,6 +8,7 @@ import handleQuestion from "../lib/handleQuestion"
 
 const Index = () => {
   const [isAsking, setAsking] = useState(true)
+  const [hasAsked, setHasAsked] = useState(false)
   const [answer, setAnswer] = useState({})
   const [input, handleInputChange] = useState('')
 
@@ -19,13 +20,14 @@ const Index = () => {
   const reset = () => {
     handleInputChange('')
     setAsking(true)
+    setHasAsked(true)
   }
 
   return (
     <Layout>
       <h1>Pretty Good Therapy</h1>
       {isAsking ?
-        <Form input={input} handleInputChange={handleInputChange} onSubmit={evaluate} />
+        <Form input={input} handleInputChange={handleInputChange} hasAsked={hasAsked} onSubmit={evaluate} />
         :
         <Answer input={input} answer={answer} askAgain={reset} />
       }
