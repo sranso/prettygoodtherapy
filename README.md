@@ -11,7 +11,6 @@ this project uses
 - https://www.netlify.com/
 
 ## todos
-- add testimonials
 - shuffle answers?
 - disable btn if no q
 - pass first feature test

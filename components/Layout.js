@@ -12,7 +12,7 @@ const Layout = props => (
 			<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/>
 			<link rel="manifest" href="/static/site.webmanifest"/>
 			<link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet"/>
-			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,700&display=swap" rel="stylesheet"/>
 			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"/>
 		</Head>
 

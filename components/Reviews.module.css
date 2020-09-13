@@ -1,0 +1,12 @@
+.wrapper {
+	background-color: ghostwhite;
+    padding: 2rem;
+}
+
+.title {
+	color: indigo;
+}
+
+.reviewer {
+	font-weight: 700;
+}
