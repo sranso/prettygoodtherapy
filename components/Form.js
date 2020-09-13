@@ -4,7 +4,7 @@ const Form = ({ input, handleInputChange, onSubmit }) => (
   <div className={formStyles.wrapper}>
     <form onSubmit={(e) => { e.preventDefault(); onSubmit(); }}>
       <p>
-        Please, take a seat.
+        Please, have a seat.
         <br /><i>~we take a breath~</i>
         <br />So. What question is on your mind?
       </p>
