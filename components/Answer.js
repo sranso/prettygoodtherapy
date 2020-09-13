@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import formStyles from './Form.module.css'
 
 const Answer = ({ question, answer, askAgain }) => (
   <div>
     <p><i>{question}</i></p>
     <p className="-answer">{answer}</p>
-    <button onClick={(e) => { e.preventDefault(); askAgain(); }}>Dig deeper</button>
+    <button className={formStyles.submit} onClick={(e) => { e.preventDefault(); askAgain(); }}>Dig deeper</button>
   </div>
 )
 
