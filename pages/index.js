@@ -22,6 +22,7 @@ const Index = () => {
 
   return (
     <Layout>
+      <h1>Pretty Good Therapy</h1>
       {isAsking ?
         <Form input={input} handleInputChange={handleInputChange} onSubmit={evaluate} />
         :

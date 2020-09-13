@@ -1,12 +1,10 @@
 .wrapper {
   margin-top: 6rem;
-}
-
-.form {
   background-color: lavender;
   padding: 1rem 1rem 2rem;
-  max-width: 80%;
+  max-width: 650px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .textarea {
@@ -25,9 +23,15 @@
 .submit {
   display: block;
   margin: 0 auto;
-  background-color: #FFE4E1;
+  background-color: indigo;
   padding: 1rem;
   font-size: 18px;
   cursor: pointer;
-  color: inherit;
+  color: ghostwhite;
+  border: none;
+  border-radius: 4px;
+}
+
+.answers {
+  margin-bottom: 3rem;
 }
