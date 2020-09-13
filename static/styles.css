@@ -13,6 +13,10 @@ body {
   	padding: 0;
 }
 
+header {
+	margin: 10px 22px;
+}
+
 h1, h2 {
 	font-family: 'Bilbo', cursive;
 	letter-spacing: 0.2rem;
