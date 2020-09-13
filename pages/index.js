@@ -25,7 +25,7 @@ const Index = () => {
       {isAsking ?
         <Form input={input} handleInputChange={handleInputChange} onSubmit={evaluate} />
         :
-        <Answer question={input} answer={answer} askAgain={reset} />
+        <Answer input={input} answer={answer} askAgain={reset} />
       }
     </Layout>
   )

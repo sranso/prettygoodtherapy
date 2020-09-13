@@ -8,6 +8,7 @@ body {
 	background-image: url(/static/lotus-leaf.png);
   	background-repeat: repeat;
   	background-size: 20%;
+  	line-height: 2rem;
 }
 
 h1 {
@@ -15,4 +16,17 @@ h1 {
 	font-size: 4rem;
 	letter-spacing: 0.5rem;
 	color: white;
+}
+
+a {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: ghostwhite;
+}
+
+header {
+	text-align: right;
+}
+
+header a {
+	margin-left: 20px;
 }

@@ -1,8 +1,13 @@
+.wrapper {
+  margin-top: 6rem;
+}
+
 .textarea {
   width: 30rem;
   height: 4rem;
   margin-bottom: 1rem;
 }
+
 .submit {
   display: block;
   margin: 0 auto;

@@ -13,6 +13,7 @@ const Layout = props => (
 			<link rel="manifest" href="/static/site.webmanifest"/>
 			<link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet"/>
 			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"/>
 		</Head>
 
 	    <Header />
