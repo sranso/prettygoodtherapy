@@ -6,7 +6,7 @@ const Layout = props => (
 		<Head>
 			<title>Pretty Good Therapy</title>
 	        <meta property="og:title" content="Pretty Good Therapy" key="title" />
-	        <meta name="description" content="Pretty good therapy, availalbe to everyone. If you need real therapy, please seek it. Built by Sarah Ransohoff." />
+	        <meta name="description" content="Pretty good therapy, available to everyone. If you need real therapy, please seek it. Built by Sarah Ransohoff." />
 
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177913389-2"></script>
 			<script dangerouslySetInnerHTML={{ __html: `
