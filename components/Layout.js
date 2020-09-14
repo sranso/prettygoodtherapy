@@ -7,6 +7,17 @@ const Layout = props => (
 			<title>Pretty Good Therapy</title>
 	        <meta property="og:title" content="Pretty Good Therapy" key="title" />
 	        <meta name="description" content="Pretty good therapy, availalbe to everyone. If you need real therapy, please seek it. Built by Sarah Ransohoff." />
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177913389-2"></script>
+			<script dangerouslySetInnerHTML={{ __html: `
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-177913389-2');
+			  `}}>
+			</script>
+
 			<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png"/>
 			<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/>
 			<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/>
