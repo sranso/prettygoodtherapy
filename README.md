@@ -12,6 +12,12 @@ this project uses
 
 ## todos
 - shuffle answers?
+- matching am i sad? / etc https://observablehq.com/@spencermountain/compromise-making-a-bot
+```js
+const firstTermCopula = doc.firstTerm().match('#Copula')
+doc.match('#Copula .') "am i"
+doc.match('#Noun').text() "i"
+```
 - disable btn if no q
 - pass first feature test
 - go top to bottom passing unit test
